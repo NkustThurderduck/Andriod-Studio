@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'ClipPath example', // 應用程式標題
+      title: 'AutobiographyC111151110', // 應用程式標題
       debugShowCheckedModeBanner: false, // 隱藏 debug 標誌
       theme: ThemeData(primarySwatch: Colors.green), // 設定主要主題顏色
       home: HomePage(), // 主頁面設定為 HomePage
@@ -123,7 +123,7 @@ class Screen1 extends StatelessWidget {
         children: [
           Padding(
             padding: EdgeInsets.fromLTRB(20, 30, 20, 20),
-            child: Text('Who an I',
+            child: Text('Who am I',
                 style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
           ),
           SizedBox(height: 15),
